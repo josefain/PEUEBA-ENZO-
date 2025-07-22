@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurante Vegano "Verde Vida"</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5fff4;
+      color: #2e4e3f;
+    }
+    header {
+      background-color: #8bc34a;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    nav {
+      background-color: #558b2f;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #33691e;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background-color: #66bb6a;
+      color: white;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #4caf50;
+    }
+    footer {
+      background-color: #a5d6a7;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Restaurante Vegano Verde Vida</h1>
+    <p>Comida 100% basada en plantas, ética y deliciosa</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#menu">Menú</a>
+    <a href="#filosofia">Filosofía</a>
+    <a href="#reservas">Reservas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenidos a Verde Vida</h2>
+    <p>Somos un restaurante vegano comprometido con la salud, el medio ambiente y el bienestar animal. Ofrecemos platos frescos, nutritivos y llenos de sabor.</p>
+    <p><strong>Horarios de atención:</strong><br>
+      Lunes a Viernes: 12:00 - 22:00<br>
+      Sábado y Domingo: 10:00 - 23:00
+    </p>
+    <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_804,q_75,w_800/v1/clients/houston/Screen_Shot_2021_04_19_at_9_19_33_PM_09159d9e-203f-4275-b7ab-a72c78730676.png" alt="Foto del restaurante vegano">
+  </section>
+
+  <section id="menu">
+    <h2>Menú</h2>
+    <ul>
+      <li><strong>Ensalada Verde Vida</strong> - $8.500</li>
+      <li><strong>Hamburguesa de Lentejas</strong> - $10.000</li>
+      <li><strong>Tacos Veganos</strong> - $9.000</li>
+      <li><strong>Lasaña de Berenjena</strong> - $11.000</li>
+      <li><strong>Smoothie Tropical</strong> - $5.000</li>
+      <li><strong>Postre de Chía y Coco</strong> - $4.500</li>
+    </ul>
+  </section>
+
+  <section id="filosofia">
+    <h2>Nuestra Filosofía</h2>
+    <p>En Verde Vida creemos que cada comida puede ser una decisión consciente. Elegimos ingredientes locales, frescos y sostenibles para cuidar del planeta y de todos los seres vivos.</p>
+    <p>Promovemos un estilo de vida libre de crueldad animal y fomentamos prácticas ecológicas en nuestra cocina y empaques. ¡Comer vegano es más que una moda, es una forma de amar!</p>
+  </section>
+
+  <section id="reservas">
+    <h2>Reserva tu mesa</h2>
+    <form>
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" name="hora" required>
+
+      <label for="mensaje">Comentarios adicionales:</label>
+      <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+      <button type="submit">Reservar</button>
+    </form>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> Calle Verde 123, Ciudad Eco, País Natural</p>
+    <p><strong>Teléfono:</strong> +123 456 789</p>
+    <p><strong>Email:</strong> contacto@verdevida.com</p>
+    <p><strong>Redes sociales:</strong><br>
+      Instagram: <a href="#">@verdevida</a><br>
+      Facebook: <a href="#">Verde Vida Restaurante</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Verde Vida - Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
